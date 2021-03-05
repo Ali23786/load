@@ -1,6 +1,200 @@
-body{
-    color: brown;
-    background-color: rgb(206, 201, 201);
-    border: 2px 3px;
+@font-face {
+    font-family: Merri-regular;
+    src: url(Fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merri-black;
+    src: url(Fonts/Merriweather-Black.ttf);
+}
+
+
+#header{
+    background-color: rgba(0, 0, 0, 0.836);
+    height: 45px;
+    margin-top: -10px;
+}
+
+
+#logo{
+    width: 15px;
+    padding-left: 220px;
+    padding-top: 15px;
+    position: absolute;
+}
+
+ul{
+    word-spacing: 80px;
+    padding-left: 300px;
+    position: absolute;
+    padding-top: 0px;
+}
+
+ul li{
+    display: inline-block;
+    color: #bcbcc7;
+    font-size: 14px;
+    font-family: Merri-regular;
+}
+
+#search{
+    width: 15px;
+    padding-left: 1120px;
+    padding-top: 15px;
+    position: absolute;
+
+}
+
+#shop{
+    width: 15px;
+    padding-left: 1200px;
+    padding-top: 13px;
+    position: absolute;
+}
+
+#blue{
+    background-color: #0071e3;
+    font-family: Merri-regular;
+    font-size: 14px;
+    height: 40px;
+    color: white;
     text-align: center;
+    margin: 0;
+    padding: 1px 0px 1px 0px;
+}
+
+
+#headerline{
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color: #f5f5f7;
+
+}
+#headerline p{
+    font-family: Merri-regular;
+    font-size: 13px;
+    word-spacing: 3px;
+
+}
+
+#headerline p span{
+   color: #2984df;
+
+}
+
+#access{
+    text-align: center;
+}
+
+#access img {
+    padding-top: 60px;
+    width: 50px;
+}
+
+#access span {
+    font-family: Merri-black;
+    font-size: 60px;
+    margin-top: -15px;
+    letter-spacing: -4px;
+}
+
+#access1{
+    font-family: Merri-regular;
+    font-size: 24px;
+    margin-top: -1px;
+}
+
+#access2{
+    font-family: Merri-regular;
+    color: #2984df;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+#acesspic1{
+    margin-top: -30px;
+    padding-right: 50px;
+}
+
+#acesspic2{
+    display: block;
+    margin-left: 630px;
+    margin-top: -10px;
+}
+
+#applepara1{
+    font-family:Merri-regular;
+    font-size: 50px;
+    font-weight: 18px;
+    margin-top: 30px;
+}
+
+#applepara2{
+    font-family:Merri-regular;
+    font-size: 25px;
+    font-weight: 8px;
+    color: #2984df;
+    margin-top: -30px;
+}
+
+#image1{
+    margin-top: -100px;
+}
+
+#shooter{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+#shooterhead{
+    color: whitesmoke;
+    font-family:Merri-regular ;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+#shooterpara1{
+    color: whitesmoke;
+    font-family:Merri-regular ;
+    font-size: 38px;
+    margin-top: -35px;
+}
+
+#shooterpara2{
+    color: rgb(175, 174, 174);
+    font-family:Merri-regular ;
+    font-size: 15px;
+    margin-top: -30px;
+}
+
+#shooter a{
+    color: #2984df;
+    font-family:Merri-regular ;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: 20px;
+    margin-top: -25px;
+    
+}
+
+#shooterimage{
+    display: block;
+    padding-left: 400px;
+    
+}
+
+#footer{
+    background-color: whitesmoke;
+    font-family: Merri-regular;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-spacing: 7px;
 }
